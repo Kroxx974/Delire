@@ -51,7 +51,7 @@ class Flower {
         this.sizeSpeed = Math.random()*0.2+0.2;
         this.maxFlowerSize = this.size + Math.random()*20;
         this.image = new Image();
-        this.image.src = "flowers.png";
+        this.image.src = "assets/flowers.png";
         this.willFlower = null;
 
         if (this.size > 8 ){ this.willFlower = true } else {this.willFlower = false};
