@@ -1,1 +1,45 @@
+X(t) = 234-115*cos(1*t)+2*cos(2*t)-12*cos(3*t)+7*cos(4*t)-6*cos(5*t)+6*cos(6*t)-3*cos(7*t)+3*cos(8*t)-cos(9*t)-2*cos(10*t)+4*cos(11*t)+cos(12*t)-2*cos(13*t)+ 
+8*cos(14*t)+2*cos(15*t)-cos(16*t)+5*cos(17*t)+2*cos(18*t)-cos(19*t)+3*cos(20*t)-cos(21*t)+cos(22*t)-2*cos(23*t)+4*cos(24*t)-2*cos(25*t)+2*cos(26*t)-3*cos(27*t)+ 
+2*cos(28*t)-cos(29*t)+cos(30*t)-cos(31*t)+cos(32*t)-cos(33*t)+cos(34*t)-cos(35*t)+cos(40*t)
+ -----------------------------------------------------------------------
+Y(t) = 256+11*cos(1*t)+2*cos(2*t)-8*cos(3*t)+7*cos(4*t)-5*cos(5*t)-6*cos(6*t)+6*cos(7*t)-7*cos(8*t)-cos(9*t)+2*cos(10*t)-9*cos(11*t)+cos(12*t)-4*cos(13*t)- 
+9*cos(14*t)+5*cos(15*t)-2*cos(17*t)+11*cos(18*t)-2*cos(19*t)-cos(20*t)-2*cos(21*t)+3*cos(22*t)+cos(23*t)+cos(24*t)-cos(25*t)-2*cos(26*t)+3*cos(27*t)-cos(28*t)+ 
+cos(29*t)-cos(30*t)+cos(32*t)-cos(34*t)-cos(38*t)+cos(39*t)+cos(41*t)+cos(51*t)
 
+X(t) = 200-113*cos(1*t)+37*cos(2*t)-20*cos(3*t)+cos(4*t)-18*cos(5*t)-7*cos(7*t)+7*cos(8*t)-9*cos(9*t)-2*cos(11*t)+8*cos(12*t)+6*cos(13*t)+cos(15*t)-cos(16*t)+ 
+cos(17*t)+8*cos(18*t)-4*cos(19*t)+5*cos(20*t)-2*cos(21*t)-cos(22*t)+3*cos(23*t)-cos(24*t)+cos(25*t)+cos(26*t)-2*cos(27*t)+3*cos(28*t)-cos(30*t)+cos(32*t)- 
+cos(33*t)+3*cos(34*t)-2*cos(35*t)+2*cos(36*t)-3*cos(37*t)+3*cos(38*t)-3*cos(39*t)+2*cos(40*t)-cos(41*t)+cos(42*t)-cos(43*t)+2*cos(44*t)-2*cos(45*t)+2*cos(46*t)- 
+2*cos(47*t)+cos(48*t)-cos(49*t)+cos(50*t)-cos(51*t)+cos(52*t)-cos(53*t)+cos(54*t)-cos(55*t)+cos(56*t)-cos(57*t)+cos(58*t)-cos(59*t)+cos(60*t)-cos(61*t)- 
+cos(63*t)
+ -----------------------------------------------------------------------
+Y(t) = 245+10*cos(1*t)-5*cos(2*t)+4*cos(3*t)+9*cos(4*t)+15*cos(6*t)+5*cos(7*t)+3*cos(8*t)+2*cos(9*t)-16*cos(10*t)-4*cos(11*t)-11*cos(12*t)-4*cos(13*t)+ 
+cos(14*t)-5*cos(15*t)+5*cos(16*t)-5*cos(17*t)+2*cos(18*t)+6*cos(19*t)-2*cos(20*t)+7*cos(21*t)-5*cos(22*t)+2*cos(23*t)+4*cos(24*t)-6*cos(25*t)+2*cos(26*t)- 
+2*cos(29*t)+3*cos(30*t)-cos(31*t)+cos(32*t)-2*cos(33*t)+2*cos(34*t)-cos(35*t)-cos(38*t)+cos(39*t)+cos(41*t)+cos(43*t)+cos(47*t)-cos(48*t)+cos(53*t)+cos(55*t)- 
+cos(56*t)+cos(57*t)-cos(58*t)+cos(61*t)-cos(62*t)-cos(64*t)+cos(65*t)
+
+X(t) = 279-154*cos(1*t)-9*cos(2*t)-8*cos(3*t)-3*cos(4*t)-9*cos(5*t)-5*cos(6*t)-3*cos(7*t)+cos(8*t)-5*cos(9*t)+cos(10*t)-2*cos(11*t)+cos(12*t)-4*cos(13*t)+ 
+cos(14*t)-3*cos(17*t)+cos(18*t)-cos(19*t)-3*cos(21*t)-cos(22*t)-2*cos(23*t)+3*cos(24*t)-3*cos(25*t)+2*cos(26*t)-cos(27*t)-cos(29*t)+2*cos(30*t)+cos(31*t)+ 
+2*cos(32*t)-cos(33*t)-cos(34*t)+3*cos(35*t)-2*cos(36*t)-cos(37*t)+2*cos(38*t)-cos(40*t)+cos(42*t)-cos(44*t)+cos(46*t)-cos(48*t)+cos(51*t)-cos(52*t)-cos(53*t)+ 
+cos(55*t)
+ -----------------------------------------------------------------------
+Y(t) = 259+24*cos(1*t)-4*cos(2*t)+3*cos(3*t)-cos(4*t)+cos(5*t)+2*cos(7*t)-cos(8*t)+2*cos(10*t)-2*cos(11*t)+cos(12*t)-3*cos(13*t)+cos(16*t)-4*cos(17*t)+ 
+6*cos(18*t)-5*cos(19*t)+3*cos(20*t)-4*cos(21*t)+3*cos(22*t)-2*cos(23*t)-3*cos(24*t)+cos(25*t)+8*cos(26*t)+8*cos(27*t)+cos(29*t)+cos(31*t)-cos(32*t)+4*cos(33*t)- 
+3*cos(34*t)-cos(37*t)-2*cos(38*t)+2*cos(39*t)+cos(41*t)-cos(46*t)-cos(50*t)+cos(57*t)
+
+X(t) = 264-132*cos(1*t)-7*cos(2*t)-12*cos(3*t)-5*cos(4*t)-7*cos(5*t)-6*cos(6*t)-4*cos(7*t)-2*cos(8*t)-3*cos(9*t)+3*cos(12*t)+3*cos(14*t)-cos(15*t)+cos(17*t)+ 
+4*cos(18*t)-cos(19*t)+4*cos(20*t)+4*cos(21*t)+6*cos(22*t)+3*cos(24*t)-cos(25*t)+cos(27*t)-cos(29*t)-cos(30*t)+cos(31*t)-cos(32*t)-cos(33*t)+4*cos(34*t)- 
+3*cos(35*t)-cos(36*t)+3*cos(37*t)-cos(38*t)-cos(39*t)-cos(40*t)+cos(41*t)-2*cos(43*t)+cos(45*t)+cos(49*t)-cos(53*t)+cos(54*t)-cos(55*t)+cos(57*t)-cos(59*t)
+ -----------------------------------------------------------------------
+Y(t) = 277+9*cos(1*t)-8*cos(2*t)+4*cos(3*t)+2*cos(4*t)+7*cos(5*t)+8*cos(6*t)+7*cos(7*t)+5*cos(8*t)+cos(9*t)-cos(10*t)-5*cos(11*t)-2*cos(12*t)-5*cos(13*t)+ 
+cos(14*t)-6*cos(15*t)+6*cos(16*t)-4*cos(17*t)-2*cos(18*t)-6*cos(19*t)-2*cos(20*t)-7*cos(21*t)-6*cos(22*t)+3*cos(23*t)+7*cos(24*t)+2*cos(25*t)+2*cos(26*t)+ 
+3*cos(27*t)+2*cos(28*t)+5*cos(29*t)+cos(30*t)-cos(32*t)-cos(33*t)-3*cos(34*t)+cos(35*t)-3*cos(36*t)+2*cos(37*t)+cos(39*t)-cos(40*t)+cos(41*t)-cos(42*t)+ 
+cos(43*t)-cos(44*t)-cos(48*t)
+
+X(t) = 313-161*cos(1*t)-5*cos(2*t)-13*cos(3*t)-7*cos(5*t)-4*cos(6*t)-4*cos(7*t)-2*cos(8*t)-2*cos(9*t)-cos(11*t)+2*cos(12*t)+2*cos(14*t)+cos(16*t)-2*cos(17*t)+ 
+cos(18*t)+4*cos(19*t)+4*cos(20*t)+4*cos(22*t)+4*cos(23*t)+cos(24*t)-cos(25*t)-2*cos(27*t)+cos(28*t)-2*cos(29*t)+4*cos(30*t)-cos(31*t)-2*cos(32*t)+2*cos(33*t)- 
+cos(35*t)+2*cos(36*t)+2*cos(37*t)-cos(38*t)-3*cos(39*t)+cos(40*t)+2*cos(41*t)-2*cos(42*t)-cos(43*t)+cos(44*t)+cos(45*t)+cos(46*t)-cos(47*t)+cos(48*t)+ 
+cos(49*t)-cos(52*t)-cos(57*t)+cos(59*t)-cos(60*t)+cos(62*t)+cos(66*t)
+ -----------------------------------------------------------------------
+Y(t) = 282-9*cos(2*t)+5*cos(3*t)+4*cos(4*t)+7*cos(5*t)+6*cos(6*t)+8*cos(7*t)+2*cos(8*t)+cos(9*t)-3*cos(10*t)-4*cos(11*t)-2*cos(12*t)-6*cos(13*t)+3*cos(14*t)- 
+2*cos(15*t)-2*cos(16*t)-2*cos(17*t)-9*cos(19*t)-5*cos(20*t)-7*cos(21*t)+5*cos(22*t)-4*cos(23*t)+3*cos(24*t)+6*cos(25*t)+10*cos(26*t)+2*cos(27*t)-3*cos(30*t)+ 
+3*cos(31*t)-cos(33*t)-3*cos(34*t)-cos(35*t)-2*cos(36*t)+2*cos(37*t)+cos(38*t)+cos(39*t)-cos(40*t)+cos(41*t)-cos(46*t)+cos(47*t)-cos(48*t)+cos(51*t)+cos(53*t)
