@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: cornflowerblue;
+    background: rgb(165, 97, 175);;
 }
 #canvas1{
     position: absolute;
@@ -10,3 +10,4 @@
     width: 100%;
     height: 100%;
 }
+
