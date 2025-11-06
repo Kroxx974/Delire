@@ -56,7 +56,7 @@ class Flower {
         this.image = flowerImg;
         this.willFlower = null;
 
-        if (this.size > 8 ){ this.willFlower = true } else {this.willFlower = false};
+        if (this.size > 6 ){ this.willFlower = true } else {this.willFlower = false};
     }
     grow(){
         if (this.willFlower && this.size < this.maxFlowerSize){
