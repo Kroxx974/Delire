@@ -33,8 +33,9 @@ class Root {
         if (this.size < this.maxSize){
             ctx.beginPath();
             ctx.arc(this.x , this.y, 3/this.size,0,Math.PI*2)
-            ctx.fillStyle = 'hsl(140,100%,'+this.lightness+'%)';
+            ctx.fillStyle = `hsl(140,70%,${this.lightness}%)`;
             ctx.fill();
+            ctx.strokeStyle = `hsl(140,70%,${1000/this.lightness}%)`;
             ctx.stroke();
             requestAnimationFrame(this.update.bind(this))
         }
