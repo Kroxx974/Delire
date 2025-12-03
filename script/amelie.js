@@ -48,6 +48,7 @@ flowerImg.src = "assets/flowers.png";
 let flowerImg2 = new Image();
 flowerImg2.src = "assets/flower.png";
 let flowers=[flowerImg,flowerImg2]
+let scale = Math.min(canvas.width/1016,canvas.height/980)
 class Flower {
     constructor(x,y,size){
         this.x = x;
@@ -64,22 +65,22 @@ class Flower {
     grow(){
         if (this.willFlower && this.size < this.maxFlowerSize){
             this.size += this.sizeSpeed;
-            ctx.drawImage(this.image,this.x-this.size*0.5, this.y-this.size*0.5,this.size, this.size);
+            ctx.drawImage(this.image,this.x-this.size*0.5, this.y-this.size*0.5,this.size*scale, this.size*scale);
             requestAnimationFrame(this.grow.bind(this));
         }
 
     }
 }
-let scale = 3*Math.min(canvas.width/1016,canvas.height/980)
+
 function X(t){
     return canvas.width/2+(-81*cos(1*t)-6*cos(2*t)-19*cos(3*t)+16*cos(4*t)-3*cos(5*t)-12*cos(6*t)-10*cos(7*t)-11*cos(8*t)-15*cos(9*t)+12*cos(10*t)-13*cos(11*t)+8*cos(12*t)
     -cos(13*t)+5*cos(14*t)-7*cos(15*t)-cos(16*t)-cos(17*t)-3*cos(18*t)-4*cos(19*t)+cos(20*t)-2*cos(21*t)-cos(22*t)-3*cos(23*t)+cos(24*t)-3*cos(25*t)-cos(29*t)+ cos(30*t)
-)*scale
+)*scale*3
 }
 
 function Y(t){
     return  canvas.height/2+(-2*cos(1*t)+23*cos(2*t)-11*cos(3*t)-24*cos(4*t)-6*cos(5*t)+11*cos(6*t)+4*cos(7*t)+6*cos(8*t)-6*cos(9*t)+4*cos(10*t)+12*cos(11*t)+3*cos(12*t)+
-    4*cos(13*t)+2*cos(14*t)+5*cos(15*t)+2*cos(17*t)+3*cos(19*t)+cos(20*t)+cos(21*t)+cos(22*t)+cos(23*t)-cos(24*t)-cos(26*t)-cos(30*t))*scale
+    4*cos(13*t)+2*cos(14*t)+5*cos(15*t)+2*cos(17*t)+3*cos(19*t)+cos(20*t)+cos(21*t)+cos(22*t)+cos(23*t)-cos(24*t)-cos(26*t)-cos(30*t))*scale*3
 }
 let lastTime = 0;
 let dt = 0;
