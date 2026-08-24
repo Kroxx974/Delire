@@ -73,18 +73,14 @@ class Flower {
 }
 
 function X(t){
-    return canvas.width/2+(-170*cos(1*t)-2*cos(2*t)-27*cos(3*t)+2*cos(4*t)-8*cos(5*t)-5*cos(6*t)-5*cos(7*t)+6*cos(8*t)
-    -5*cos(9*t)+4*cos(10*t)-cos(12*t)-7*cos(13*t)+4*cos(14*t)-4*cos(15*t)-3*cos(16*t)+cos(17*t)+cos(18*t)-3*cos(19*t)
-    +4*cos(20*t)-2*cos(21*t)-cos(22*t)-7*cos(23*t)+cos(24*t)+cos(26*t)+5*cos(27*t)+cos(28*t)+2*cos(29*t)- 3*cos(31*t)
-    -cos(32*t)-2*cos(33*t)+2*cos(34*t)-2*cos(35*t)+3*cos(36*t)-2*cos(37*t)+3*cos(38*t)-cos(40*t)+cos(41*t)-2*cos(42*t)
-    +cos(47*t)-cos(48*t)+cos(49*t)-cos(50*t)+cos(51*t)-cos(52*t)+cos(57*t))*scale*3
+    return canvas.width/2+(-79.7*cos(t)+6.6*cos(2*t)-6.1*cos(3*t)+5*cos(4*t)+6.4*cos(5*t)+14.4*cos(6*t)+5.9*cos(7*t)-8.3*cos(9*t)+9.4*cos(10*t)
+                           -2.9*cos(11*t)-9*cos(12*t)-4*cos(13*t)-1.3*cos(17*t)-2.8*cos(19*t)+2.6*cos(20*t)-3.9*cos(21*t)+2.8*cos(22*t)+1.4*cos(24*t)-1.1*cos(25*t))*scale*3
 }
 
 function Y(t){
-    return  canvas.height/2+(-4*cos(1*t)-cos(3*t)-3*cos(4*t)-cos(6*t)-3*cos(7*t)-3*cos(8*t)-4*cos(9*t)-4*cos(10*t)
-    -2*cos(11*t)+3*cos(12*t)+3*cos(14*t)+5*cos(15*t)+6*cos(16*t)+ cos(17*t)+3*cos(18*t)+5*cos(19*t)-6*cos(20*t)
-    +3*cos(22*t)+cos(23*t)+4*cos(24*t)-5*cos(25*t)-2*cos(26*t)-cos(27*t)+2*cos(28*t)+cos(29*t)+2*cos(30*t)+cos(32*t)
-    -cos(34*t)-cos(36*t)+2*cos(37*t)-cos(38*t)+cos(39*t)-2*cos(40*t)+cos(41*t)+cos(43*t)-cos(44*t)+2*cos(45*t)-cos(46*t)+cos(47*t))*scale*3
+    return  canvas.height/2+(-20.8*cos(t)-7.3*cos(2*t)+11.7*cos(3*t)+22.1*cos(4*t)+4.4*cos(5*t)-6.5*cos(6*t)-14.3*cos(7*t)-5.3*cos(8*t)-6*cos(9*t)
+-15.7*cos(10*t)-3.7*cos(11*t)-2.9*cos(12*t)-6.7*cos(13*t)+8.1*cos(14*t)-5.4*cos(15*t)-3.2*cos(17*t)+2.6*cos(18*t)-2.3*cos(19*t)
++1.7*cos(20*t)-cos(23*t)-1.5*cos(24*t)-1.7*cos(26*t)+1.3*cos(27*t)-1.4*cos(28*t)-1.3*cos(30*t)-cos(32*t)-1.1*cos(36*t)-cos(38*t))*scale*3
 }
 let lastTime = 0;
 let dt = 0;
